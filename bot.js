@@ -3,6 +3,11 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
+
+client.user.setGame("Gang Yore");
+client.user.setStatus("ldle");
+    
+    
 });
 
 client.on('message', message => {
