@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+client.user.setGame('With Gang Yore')
 
 client.on('ready', () => {
     console.log('I am ready!');
