@@ -6,8 +6,6 @@ client.on('ready', () => {
 
 client.user.setGame("Gang Yore");
 client.user.setStatus("ldle");
-    
-    
 });
 
 client.on('message', message => {
